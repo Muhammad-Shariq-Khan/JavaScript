@@ -1,3 +1,5 @@
+//  variables in a javascript
+
 const Email = "Shariq@gamil.com"; //No change
 let UserName = "Shariq";
 var password = 1478;
@@ -16,9 +18,11 @@ console.log(Email)
 
 let Name; //Declaring
 Name = "Jone"; //Assignment
-let Name = "Jone Dev" //Initialization
+
+let User = "Jone Dev" //Initialization
 
 console.log(Name);
+
 
 
 function f1() {
@@ -33,17 +37,29 @@ function f1() {
     }
 }
 
-console.log(f1())
+f1()
+
+
+
 
 const i;
-i = "Jone";
-
+i = "Jone";      //❌
 console.log(i)
 
+
+/*
+    Hoisting
+    It is allowed in only var variable not a let and const variable
+*/
+
 x = 10;
-console.log(x)
+console.log(x)   //✔️
 var x;
 
+
+
 x = 15;
-console.log(x);
+console.log(x);  //❌
 let x;
+
+/* */
